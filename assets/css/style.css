@@ -7,7 +7,7 @@
     display: grid;
     grid-template-areas: 
     "navbar"
-    "filtros"
+    "ordenar"
     "contenido"
     "footer";
     min-height: 100vh;
@@ -21,16 +21,19 @@
     justify-content: space-around;
     padding: 20px;
 }
-
 .filtros{
     grid-area:  filtros;
     background-color: black;
     color: aliceblue;
 }
+
+
 .ordenar{
+    grid-area: ordenar;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 .precio{
     padding: 1px;
@@ -110,5 +113,7 @@ img{
 .grilla-productos{
     grid-template-columns: repeat(2, 1fr);
 }
+
+
 
 }
