@@ -11,24 +11,39 @@
     
 <div class="container">
     
-<nav class="navbar"><h1><i class="fa-solid fa-person-snowboarding"></i> Skate-Store </h1>
+<nav id="menu" class="navbar">
+    <h1 class="logo"><i class="fa-solid fa-person-snowboarding"></i> Skate-Store </h1>
     <i class="fa-solid fa-bars"></i>
 </nav>
 
 <menu class="filtros">
     
-    <h3>Categorías:</h3>
+    <h3 style="padding: 20px;">Categorías:</h3>
     <ul class="filtros-lista">
         <li>Modelo</li>
         <li>Color</li>
         <Li>Talla</Li>
     </ul>
+<div>
+    <h4 style="padding: 30px;">Enlaces</h4>
+    <ul>
+        <li><a href="#footer">Footer</a></li>
+        <li><a href="#menu">Menú</a></li>
+    </ul>
+</div>
+<div class="box"></div>
+<div class="container-2">
+    <h1 class="text">Skate</h1>
 
+</div>
 </menu>
 <main class="contenido">
     <div class="ordenar">
-        <h2>Ordenar por:</h2>
-        <button class="precio">Precio</button>
+        <label style="padding: 20px;"  for="search"> Ordenar por:</label>
+        <select class="precio">
+            <option value="precio">Precio</option>
+            <option value="precio">$0-$200.000</option>
+        </select>
     </div>
     <div class="grilla-productos">
 <div class="producto">
@@ -129,7 +144,7 @@
         <button class="siguiente">Siguiente</button>
     </div>
 </main>
-<footer class="footer">
+<footer id="footer" class="footer">
     <div class="redes">
     <i class="fa-brands fa-facebook"></i>
     <i class="fa-brands fa-instagram"></i>
